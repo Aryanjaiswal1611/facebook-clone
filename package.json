@@ -1,0 +1,27 @@
+{
+  "name": "facebook-clone",
+  "version": "1.0.0",
+  "description": "A full-featured Facebook clone built with MERN stack",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "npm run server & npm run client"
+  },
+  "keywords": [
+    "facebook",
+    "clone",
+    "mern",
+    "social-network"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "socket.io": "^4.8.3"
+  }
+}
